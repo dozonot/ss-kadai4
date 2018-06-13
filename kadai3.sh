@@ -23,7 +23,7 @@ else
       echo "入力値は素数ではありません。"
       exit 0
     fi
-    ((I++))
+    I=I+1
   done
   echo "入力値は素数です。"
   exit 1

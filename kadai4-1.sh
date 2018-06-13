@@ -11,9 +11,13 @@ ERROR_EXIT () {
 }
 
 # テスト開始
-# test1: 2:素数
+## test1: 素数
 sh kadai3.sh 3 > ${TMP}-ans && ERROR_EXIT "error in test1-1"
-diff ${TMP}-ans ${TMP}-true || ERROR_EXIT "error in test1-2"
+diff ${TMP}-ans ${TMP}-true || ERROR_EXIT "error in test1-1"
+
+## test1: 非素数
+sh kadai3.sh 4 > ${TMP}-ans && ERROR_EXIT "error in test1-2"
+diff ${TMP}-ans ${TMP}-false || ERROR_EXIT "error in test1-2"
 
 rm -f ${TMP}-*
 exit 0

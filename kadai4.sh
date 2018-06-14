@@ -22,12 +22,12 @@ diff ${TMP}-ans ${TMP}-false || ERROR_EXIT "error in test2-2"
 echo "test2: 成功"
 
 echo "test3: 大きな素数判定"
-sh kadai3.sh 6700417 > ${TMP}-ans || ERROR_EXIT "error in test3-1"
+sh kadai3.sh 8191 > ${TMP}-ans || ERROR_EXIT "error in test3-1"
 diff ${TMP}-ans ${TMP}-true || ERROR_EXIT "error in test3-2"
 echo "test3: 成功"
 
 echo "test4: 大きな非素数判定"
-sh kadai3.sh 6700418 > ${TMP}-ans || ERROR_EXIT "error in test4-1"
+sh kadai3.sh 8192 > ${TMP}-ans || ERROR_EXIT "error in test4-1"
 diff ${TMP}-ans ${TMP}-false || ERROR_EXIT "error in test4-2"
 echo "test4: 成功"
 

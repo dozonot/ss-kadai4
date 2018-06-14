@@ -2,7 +2,7 @@
 
 TMP=/tmp/$$
 echo "入力値は素数です。"           > ${TMP}-true
-echo "力値は素数ではありません。" > ${TMP}-false
+echo "入力値は素数ではありません。" > ${TMP}-false
 
 ERROR_EXIT () {
   echo "$1" >&2

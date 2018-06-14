@@ -1,6 +1,8 @@
 language: generic
 script:
-  - sh kadai4.sh
+- sh kadai4.sh
 notifications:
   email:
-    - a1809tk@aiit.ac.jp
+  - a1809tk@aiit.ac.jp
+  slack:
+    secure: R5uY3F2/J0wJhETghhOQPjIu+gOmROluqh6RhzsiRfsJjhHfuR9K5rj2GcJbGgAOo/yZkNRp7LmOI6QryL2Am9JVWoNkVN/DxCgtnz6JqSY5IBIEiXm6jL0G7YB8BiDURJXTfS9x7TQ/pr37g0BC9VYzF+zl9rDWvBengw7UdkzGaWvVZ7O6T34peG9HZKzVmBgpQezz7vnCId83eWSzes/ouyK7T1OHw/mRuPvUxuAVtqg89lKlucf8tAiHbtQOMAgxAVZHTdXJo+i7/nDJDHZptb12QtTZ33iAoRHg0jpAwgFmgooG57SMaFTSiOmiRqNxKvsCGM0W3qXk8NhCD9DdtKnlCXNIm5jRRNEvf+mtXhH8BfHts/DLYFD1QkrC0WHt0/fz3JEexp3xd0bSVrWJm6wRf/JgVuM52WJhvb0Zly2YQLlETafS39aRmNN4NOml8b9gFs0+Siek4gY07eT4scWwyE5RpVFY0uXCzQM8otQptrxxlW/rI2N770+YorkQpwOxjsPJXhfjQfPRbLLP8D3GKXvdPy/RM0DJT+HsqiXOoOh3FGSrWkj65kkDis+GLTEYTUnOhfFZLvpHf3kbtJ2yhlJ9piZZpcar5SX4jJQbUlsBxpa05udSXoYQdRmOYvX2xLkGpHi56YlSCwhDt/gf/de8lEgJqTmYNzI=

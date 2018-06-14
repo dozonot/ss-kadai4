@@ -1,9 +1,5 @@
 #!/bin/bash
 
-## exit code
-# 0 : 入力値は自然数です。
-# 1 : 入力値は自然数ではありません。
-
 ## main
 ### Input value
 INPUT=${1}
@@ -11,8 +7,8 @@ INPUT=${1}
 ### Check prime
 if [ ${INPUT} -lt 2 ] ; then
   echo "入力値は素数ではありません。"
-  exit 1
-elif [ ${INPUT} == 2 ] ; then
+  exit 0
+elif [ ${INPUT} -eq 2 ] ; then
   echo "入力値は素数です。"
   exit 0
 else
@@ -26,5 +22,5 @@ else
     I=$(( I + 1 ))
   done
   echo "入力値は素数です。"
-  exit 1
+  exit 0
 fi

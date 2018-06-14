@@ -1,6 +1,6 @@
 language: generic
 script:
-  - sh kadai4-1.sh
+  - sh kadai4.sh
 notifications:
   email:
     - a1809tk@aiit.ac.jp
